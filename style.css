@@ -773,9 +773,10 @@ margin: 30px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	align-items: center;
 }
 .featureItem {
-	max-width: 400px;
+	max-width: 300px;
 	margin: 20px;
 	text-align: center;
 	font-family: arial;
