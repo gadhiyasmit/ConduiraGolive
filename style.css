@@ -574,8 +574,8 @@ padding:0.5 rem;
 }
 .ImFlex .firstimage
 {
-width: 400px;
-height: 300px;
+width: 350px;
+height: 250px;
 margin: 20px;
 overflow: hidden;
 }
@@ -645,6 +645,7 @@ margin: 30px;
 	  display: flex;
 	  justify-content: center;
 	  flex-wrap: wrap;
+	 
   }
   .GamingProd .Productname
   {
@@ -782,8 +783,8 @@ margin: 30px;
 	background-size: cover;
 }
 .featureItem img{
-	width:400px;
-	height:300px;
+	width:350px;
+	height:200px;
 	overflow: hidden;
 }
 .featureItem .featuredata span{
@@ -793,7 +794,7 @@ margin: 30px;
 	padding: 10px;
 	color: #fff;
 	position: relative;
-	left:0;
+	left:20px;
 	top:-20px;
 	text-align: left;
 }
