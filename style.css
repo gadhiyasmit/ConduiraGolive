@@ -1,0 +1,1099 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*,*::before,*::after{
+
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif ;
+  scroll-behavior: smooth;
+
+}
+body{
+	background-color: #59d3f1;
+	align-items: center;
+}
+
+ .startheader
+{
+	background-size: cover;
+	background-color: #fff;
+
+	width: 100%;
+	height: 12vh;
+
+}
+
+.startheader .nav_links .navbar1 .logo{
+	margin-right: auto;
+}
+
+.startheader .nav_links .navbar ul li
+{
+list-style: none;
+}
+
+.startheader .buttons{
+    background-color: #2b7ec2;
+    border: none;
+    color: white;
+     padding: 10px 10px;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ .startheader .nav_links
+{
+     display: flex;
+	 justify-content: space-between;
+	margin-left: auto;
+
+}
+.startheader ul
+{
+    display:flex;
+	margin-left: auto;
+    justify-content: space-between;
+}
+
+.startheader .button1
+ {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #2b7ec2;
+ }
+
+
+
+ .checkbtn{
+    color:rgb(75, 120, 218);
+    font-size: 25px;
+    cursor:pointer;
+    float: right;
+    display: block;
+	padding: 10px 10px;
+}
+#check{
+    display: block;
+    float:right;
+	margin: 20px;
+	top:20px;
+	left: 20px;
+}
+ .logo
+{
+	margin-top: 20px;
+}
+.firstimag
+{
+	width: 100%;
+	height: 100%;
+	box-align: center;
+	margin-top: 20px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+
+.imaglogo2 img
+{
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+
+}
+.ImagesInLine
+{
+display: flex ;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+margin-left: 30%;
+margin-right: 30%;
+max-width: 900px;
+}
+
+.ImagesOnone
+{
+	background-image: url('/images/CEAT-Banner_Desktop.jpeg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position:relative;
+	align-items:center;
+
+}
+.ImagesOnone div p{
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.ButtonInImage button
+{
+	background-color: #530899 ;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 28px;
+	padding: 20px;
+	border: #530899;
+	text-transform: uppercase;
+	color: #fff;
+	bottom:-60%;
+}
+/* Game DATE And Time  */
+.Starttournament
+{
+	margin: 20px 20px;
+	vertical-align: center;
+	background-color: #fff;
+	padding: 40px;
+}
+.Starttournament .game_datetime
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.Starttournament .game_datetime p
+{
+text-align: center;
+margin: 20px;
+font-size: 22px;
+text-transform: uppercase;
+color: blue;
+}
+.GameStart
+{
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	flex-direction: row ;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+.Starttournament .GameStart .GameVenus p strong
+{
+	font-size: 20px;
+	font-weight: 100px;
+	color: #000;
+	text-align: center;
+
+}
+.Starttournament .GameStart p
+{
+	font-size: 16px;
+	font-weight: 100px;
+	color: blue;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* Game DATE And Time Ends  */
+/* Tounament Contestents */
+.container1
+{
+	margin: 70px auto;
+	display: block;
+	align-items: center;
+}
+.container1 .tourName p
+{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+margin-top: 30px;
+text-transform: uppercase;
+text-shadow: black;
+color: black;
+}
+.Contestants
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin-top: 70px;*/
+}
+.Contestants .PlayersPic img
+{
+	width:80%;
+height: 80%;
+margin: 20px;
+padding: 20px;
+}
+.Contestants .PlayersPic img:hover{
+	width:100%;
+	height:100%;
+}
+/* Tounament Contestents Ends */
+
+
+/* Leaderboard */
+.selectregions
+{
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #fff;
+	align-items: center;
+	position: relative;
+}
+.selectregions .SelectRbutton{
+	 margin-bottom: 30px;
+	position:absolute;
+	align-items: center;
+	width: 100%
+}
+ .selectregions .SelectRbutton button
+{
+	color: #fff;
+	background-color: blue;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 0.3em;
+	 margin: 0px auto;
+	padding: 30px;
+	position: absolute;
+	 top: -100px;
+	 left:50%;
+	 transform: translateX(-50%);
+	align-items: center;
+}
+
+.Contestantslist{
+	width: 100%;
+
+	margin-top: 100px;
+	padding: 50px
+}
+ .lboard_item{
+
+	width:90%;
+	margin:20px;
+	 align-items: center;
+}
+
+.lboard_item .lboard_mem
+{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+	background-image: url('images/Leaderboard_Desktop.png');
+	background-repeat: no-repeat;
+	background-size: fit-content;
+	justify-content: space-evenly;
+	 margin:20px 10%;
+	height: 70px;
+
+}
+
+.lboard_mem .imag img
+{
+	width:50px;
+	max-height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+	/* display: flex;*/
+}
+.lboard_item .lboard_mem .NameTeam,.lboard_item .lboard_mem .Matches, .lboard_item .lboard_mem .Score, .lboard_item .lboard_mem .points
+{
+	text-transform: uppercase;
+align-content: center;
+}
+.lboard_item .lboard_mem .NameTeam p,.lboard_item .lboard_mem .Matches p, .lboard_item .lboard_mem .Score p
+{
+	color: black;
+	font-size: 17px;
+	text-transform: uppercase;
+	align-content: center;
+}
+.lboard_item .lboard_mem .Score p
+{
+	width:100%;
+}
+.lboard_item .lboard_mem .NameTeam p strong,.lboard_item .lboard_mem .Matches p strong, .lboard_item .lboard_mem .Score p strong,.lboard_item .lboard_mem .points p strong
+{
+	color: rgb(19, 50, 226);
+	font-size: 14px;
+	text-transform: uppercase;
+	align-content: center;
+}
+
+
+.lboard_item .dots
+{
+	align-items: center;
+}
+.lboard_item .dots p{
+color: black;
+
+text-align: center;
+align-items: center;
+}
+.lboard_item .lboard_mem .points p{
+	color: blue;
+	font-weight: 100;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-shadow: #2b7ec2 right;
+  }
+/* Leaderboard Ends */
+
+
+.Tournament2
+{
+margin: 30px 20px;
+align-items: left;
+width:70%
+}
+.Tournament2 .TournaHeading
+{
+position: relative;
+}
+.Tournament2 h3{
+	color: black;
+	font-size: 32px;
+	font-weight: 300;
+	text-align:start;
+	text-transform: uppercase;
+	margin: 30px 20px;
+
+}
+.Tournament2 p
+{
+	color: black;
+	font-size: 22px;
+	margin: 20px;
+}
+
+.tournamentSch {
+	background-color: #fff;
+	margin: 30px;
+	align-items: center;
+}
+.tournamentSch .TournaHead h3 {
+	color: black;
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 30px;
+	margin: 20px;
+	text-align: center;
+}
+.tournamentSch .schedule
+{
+display: flex;
+justify-content: space-evenly;
+background-image: url('images/Schedule_Desktop.png');
+background-repeat: no-repeat;
+background-size:cover ;
+overflow: hidden;
+margin:20px auto;
+align-items: center;
+
+}
+ .tournamentSch .scheduletime
+{
+	/* margin: 10px; */
+	align-items: center;
+}
+
+.tournamentSch .schedule .timimgsFlex .boldtext{
+	color: blue;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 200;
+
+}
+.tournamentSch .schedule .timimgsFlex .blackbold{
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 200;
+
+
+}
+.tournamentSch .schedule .timimgsFlex .linetext{
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	font-family: fantasy;
+	text-transform: uppercase;
+
+}
+.tournamentSch .SpanTop{
+
+	align-items: center;
+
+}
+
+
+.tournamentSch .SpanTop button
+{
+	background-color: rgb(75, 120, 218);
+	background-position: center;
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	font-weight: 100;
+	position: relative;
+	bottom:-40px;
+	padding: 10px;
+	border-bottom-left-radius:  30px;
+	border-top-right-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Faqs */
+
+ .FAQStart
+ {
+	margin-top:30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.FAQStart .HeadingFAQ
+{
+	padding: 20px;
+}
+.FAQStart .HeadingFAQ h3{
+	font-size: 28px ;
+	text-transform: uppercase;
+	 text-align: center;
+	 margin-top: 40px;
+	padding: 20px;
+}
+.pseudoele .HeadingFAQ::before
+{
+	 content:"";
+    position:absolute;
+    width: 1 rem;
+    height:90%;
+    background-color: #3672c2;
+    top:50%;
+    left:0;
+	transform:translateY(-50%);
+}
+ .container2{
+    width: 100%;
+    max-width: 80rem;
+     margin:0 auto;
+    padding:0.5rem;
+	display: flex;
+	justify-content: space-between;
+	 align-items: center;
+
+}
+.accodian-icon{
+    background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: inherit;
+    border-radius: .4rem;
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+	box-shadow:0.5rem 2px 0.5rem rgb(0,0,0.0.1);
+}
+.accodian-link
+{
+	text-decoration: none;
+	font-weight: 200;
+    /* background-color: #fff; */
+     width: 100%;
+    display: flex;
+    align-items: center;
+	 justify-content: space-between;
+   padding: 1rem 0;
+}
+.accodian-link p{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+    color: rgba(13, 10, 233, 0.8);
+
+}
+.accodian-link i{
+color:#000;
+padding:0.5 rem;
+}
+ .accodian-link .ion-md-remove
+{
+    display: none;
+}
+.answer{
+     max-height: 0;
+	 max-width: 80%;
+    overflow : hidden;
+    position: relative;
+    /* background-color: #fff; */
+     transition: max-height 550ms;
+
+}
+
+.answer p{
+    font-size: 1.0rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding:2rem;
+
+}
+.accodian-icon:target .answer{
+    max-height:20rem;
+}
+.accodian-icon:target .accodian-link .ion-md-add
+{
+    display:none;
+}
+.accodian-icon:target .accodian-link .ion-md-remove
+{
+	/* color:#000; */
+    display:block;
+}
+.accodian-icon:target .ion-md-remove{
+    max-height: 0rem;
+}
+/* Featured Videos */
+
+.FeaturedVideos {
+	margin: 20px;
+}
+.FeaturedVideos .heading{
+	position:relative;
+}
+.FeaturedVideos .Heading h3{
+	font-size: 28px ;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.ImFlex{
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+
+}
+.ImFlex .firstimage
+{
+width: 400px;
+height: 300px;
+margin: 20px;
+overflow: hidden;
+}
+.ImFlex .firstimage .imageText
+{
+    margin-top: 120px;
+}
+.ImFlex .firstimage .imageText .VideoInfo
+{
+font-size: 20px;
+text-transform: uppercase;
+}
+.ImFlex .firstimage .imageText .TitleName
+{
+	font-size: 16px;
+text-transform: uppercase;
+}
+.ImFlex .firstimage .imageText .views
+{
+	font-size: 12px;
+text-transform: uppercase;
+}
+
+/* GamingProducts */
+.GamingProd{
+margin: 30px;
+}
+.GamingProd .Heading
+{
+	position:relative;
+}
+.GamingProd .Heading h3{
+	font-size: 28px ;
+	text-transform: uppercase;
+	/* text-align: center; */
+	/* margin-top: 40px; */
+	padding: 20px;
+}
+.GamingProd .Heading::before
+{
+	 content:"";
+    position:absolute;
+    width: 1 rem;
+    height:90%;
+    background-color: #3672c2;
+
+    left:0;
+	transform:translateY(-50%);
+}
+.GamingProd .card {
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+	max-width: 300px;
+	margin: 20px;
+	text-align: center;
+	font-family: arial;
+	padding: 10px;
+  }
+  .GamingProd .card img{
+	  width:400px;
+	  height:300px;
+	  background-color:#fff;
+  }
+  .GamingProd .card h3,p{
+	  padding: 20px;
+  }
+  .GamingProd .ProductsOnl{
+	  display: flex;
+	  justify-content: center;
+	  flex-wrap: wrap;
+  }
+  .GamingProd .Productname
+  {
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 100;
+
+  }
+  .GamingProd .price {
+	color: rgb(167, 48, 197);
+	font-size: 20px;
+  }
+  /* Gaming PRoduct Ends */
+  .TourFeature
+{
+	display:none;
+}
+
+/* featured Players */
+.featuredPlayer{
+	background-image: url('/images/FeaturedPlayers_Desktop.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px;
+	height: 70vh;
+}
+
+.featuredPlayer h1{
+	font-size: 28px ;
+	text-transform: uppercase;
+	/* text-align: center; */
+	/* margin-top: 40px; */
+	padding: 20px;
+	margin-bottom: 60px;
+	color:#fff;
+
+  }
+  .wrapper h1{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .wrapper .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .team .team_member{
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+  }
+  .team .team_member h3{
+    color: blue;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+
+
+  .container4{
+	margin: 40px;
+  }
+  .container4 .Heading h3{
+	font-size: 28px ;
+	text-transform: uppercase;
+	/* text-align: center; */
+	/* margin-top: 40px; */
+	padding: 20px;
+}
+.container4 .Heading::before
+{
+	 content:"";
+    position: relative;
+    width: 1 rem;
+    height:90%;
+    background-color: #3672c2;
+    top:50%;
+    left:0;
+	right:0.5rem;
+	transform:translateY(-50%);
+}
+
+.container4 .featureFlex
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.featureItem {
+	max-width: 400px;
+	margin: 20px;
+	text-align: center;
+	font-family: arial;
+	background-color: #fff;
+	background-size: cover;
+}
+.featureItem img{
+	width:400px;
+	height:300px;
+	overflow: hidden;
+}
+.featureItem .featuredata span{
+	background-color: blue;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #fff;
+	position: relative;
+	left:0;
+	top:-20px;
+	text-align: left;
+}
+.featureItem .featuredata{
+	text-align: left;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+.featureItem .featuredata .p1
+{
+	font-size: 20px;
+	font-family: 'Rohoto', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 20px;
+	text-align: start;
+}
+.featureItem .featuredata .p2
+{
+	font-size: 10px;
+	font-family: 'Rohoto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: blue;
+	text-align: start;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+footer
+{
+	background-image: url('images/Footer_Desktop.jpeg');
+
+    padding: 38px 10%;
+}
+.footerNav .nav_links
+{
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+
+ .nav_links li
+{
+	margin-left: 20px;
+	padding: 0px 20px;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.nav_links  li img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+  .footerNav ul li a
+{
+	color:#fff ;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover
+{
+	color: #59d3f1;
+}
+.footerdata .footer1
+{
+text-transform: uppercase;
+color: #fff;
+font-size: 16px;
+text-align: center;
+
+}
+.footerdata .footer1 span{
+	color: blue;
+	padding: 10px;
+}
+.footerdata .footer2
+{
+text-transform: uppercase;
+text-align: center;
+font-size: 16px;
+color: blue;
+}
+
+@media only screen and (max-width: 990px)
+{
+	.ImagesOnone{
+		background-image: url('/images/CoverBanner_Mobile.jpeg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 70vh;
+		align-items: center;
+		position:relative;
+	}
+
+
+	 .imaglogo2 {
+		position: absolute;
+		align-items: center;
+		/* top:-20%; */
+		left:50%;
+	}
+	.imaglogo2 img
+	{
+		position: absolute;
+		top: 70px; 
+		left: 50%;
+		transform: translateX(-50%);
+		
+		justify-items: center;
+	}
+	.ImagesInLine
+	{
+		position: absolute;
+		top:10px;	
+	}
+	.ImagesInLine .Partners{
+		padding: 20px;
+	}
+	.ImagesOnone .ButtonInImage
+	{
+		position: absolute;
+		bottom:40px;
+		align-items: center;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* Start Tournament */
+	.Starttournament
+	{
+	position: relative;
+	align-items: center;
+	}
+	.Starttournament .GameStart 
+	{
+		display:grid;
+	}
+
+	.lboard_item .lboard_mem {
+		background-image: url('/images/Leaderboard_Mobile.png');
+	}
+	.lboard_item .lboard_mem .NameTeam p
+	{
+		font-size: 14px;
+	}
+	.selectregions .contestantslist .lboard_mem .Matches, .selectregions .contestantslist .lboard_mem .Score
+	{
+		display:none;
+	}
+	.scheduletime .schedule
+	{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		background-image: url('/images/Schedule_Mobile.png');
+		background-size: cover;
+	}
+	.TournaHeading h3{
+		font-size: 24px;
+	}
+	.Tournament2 p{
+		font-size:18px;
+	}
+	.ImFlex
+	{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.Tournament2{
+		align-items: center;
+	}
+	.GamingProd{
+		display: none;
+	}
+	/* Gaming Product Finished */
+
+
+	/* Featured Players */
+	.featuredPlayer{
+		background-image: url('/images/FeaturedPlayers_BG.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		margin: 20px;
+
+	}
+	.wrapper .team{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container4 .featureFlex
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerNav .nav_links
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	footer
+	{
+		background-image: url('images/Footer.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+
+	background-size: 100%;
+		padding: 38px 10%;
+	}
+	/* Replaced in Mobile by Gaming Product  */
+	.TourFeature
+	{
+	margin: 20px;
+	display: block;
+	align-items: center;
+	}
+	.TourFeature .TourFeatures .TournaBackground
+	{
+		background-image: url('/images/FeaturedPlayers_BG.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size:cover;
+		max-height: 100vh;
+
+	}
+	.TourFeature .TourFeatures .TourFeatures
+	{
+		margin: 20px;
+	}
+	.TourFeature .TourFeatures .TournaBackground .tournaHeading h3
+	{
+		font-size: 32px;
+		font-weight: 200;
+		color:rgb(255, 255, 255);
+		text-transform: uppercase;
+		align-content: center;
+		padding: 40px 30px ;
+		margin: 10px;
+
+	}
+	.TourFeature .TourFeatures .TournaBackground .paragraph
+	{
+		font-size: 20px;
+		justify-content: left;
+		color: #fff;
+	}
+	.TourFeatures .lowerBodyTour
+	{
+		margin: 20px;
+		align-items: center;
+	}
+	.TourFeatures .lowerBodyTour .lowerbodyhead
+	{
+		background-image: url('/images/Schedule_Mobile.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto;
+		align-items: center;
+
+	}
+	.TourFeatures .lowerBodyTour .lowerbodyhead p
+	{
+	margin: 0 auto;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	}
+	.TourFeatures .Tour
+	{
+		align-items: center;
+	}
+	.TourFeatures .Tour p span{
+		margin: 0 auto;
+		font-size: 40px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.TourFeatures .Tour p {
+		margin: 0 auto;
+		font-size: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		color:blue;
+	}
+	.TourFeatures .lowerbodyhead
+	{
+		background-image: url('/images/Schedule_Mobile.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto;
+		align-items: center;
+	}
+	.TourFeatures .lowerbodyhead
+	{
+		margin: 0 auto;
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
