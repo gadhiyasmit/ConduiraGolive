@@ -726,6 +726,23 @@ margin: 30px;
     width: 100px;
     height: 100px;
   }
+  .team .team_member .teamDescription{
+	  margin: 20px;
+	  align-items: center;
+  }
+  .team .team_member .teamDescription p{
+	  color: #000;
+	  font-size: 24px;
+	  text-transform: uppercase;
+
+  }
+  .team .team_member .teamDescription p span
+   {
+	color: blue;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+}
 
 .container4{
 	margin: 40px;
@@ -969,7 +986,7 @@ color: blue;
 		background-image: url('images/FeaturedPlayers_BG.png');
 		background-size: 100%;
 		background-repeat: no-repeat;
-		background-position:center;
+		background-position: initial;
 		margin: 20px;
 
 	}
