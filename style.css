@@ -776,6 +776,7 @@ margin: 30px;
 }
 .featureItem {
 	max-width: 300px;
+	padding: 20px;
 	margin: 20px;
 	text-align: center;
 	font-family: arial;
