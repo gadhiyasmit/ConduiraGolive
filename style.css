@@ -10,7 +10,7 @@
 
 }
 body{
-	background-color: #59d3f1;
+	background-color: #d2ecf3;
 	align-items: center;
 }
 
@@ -143,7 +143,7 @@ max-width: 900px;
 	border: #530899;
 	text-transform: uppercase;
 	color: #fff;
-	bottom:-60%;
+	bottom:-50%;
 }
 /* Game DATE And Time  */
 .Starttournament
