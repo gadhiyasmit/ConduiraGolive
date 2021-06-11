@@ -394,6 +394,7 @@ background-size:cover ;
 overflow: hidden;
 margin:20px auto;
 align-items: center;
+width: 60%;
 
 }
  .tournamentSch .scheduletime
@@ -479,9 +480,8 @@ align-items: center;
 	transform:translateY(-50%);
 }
  .container2{
-    width: 100%;
-    max-width: 80rem;
-     margin:0 auto;
+    width: 70%;
+     margin:20px auto;
     padding:0.5rem;
 	display: flex;
 	justify-content: space-between;
